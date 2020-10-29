@@ -1,0 +1,147 @@
+/*
+body,html{
+	
+	background-image:url('harley.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}*/
+
+
+body{
+	background-image:url('education.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+}
+
+
+.container{
+	position:absolute;
+	top:40%;
+	left:50%;
+	.webkit-transform: translate(-40%,-30%);
+	transform:(-50%,-50%);	
+}
+
+table{
+	width:650px;
+	border-collapse:collapse;
+	overflow:hidden;
+	box-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+	
+}
+
+td,th{
+	padding:15px;
+	background-color:rgba(225,225,225,0.2);
+	color:#ffff;
+}
+
+
+th{
+	text-align:left;
+	background-color:#88C9C7;
+	font-family:Arial,Helvetica,Sans-serif;
+	font-size:20px;
+	
+}
+
+tbody td{
+	position:relative;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	
+}
+
+tbody tr:hover{
+	background-color:rgba(255,255,255,0.3);
+}
+
+tbody td:hover:before{
+	content:"";
+	position:absolute;
+	left:0;
+	right:0;
+	top:9999px;
+	bottom:9999px;
+	background-color:rgba(205,129,172,0.2);
+	z-index:1;
+	
+}
+.sideNav{
+	background-image:url('logo.jpg');
+	background-image:no-repeat;
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:gray;
+	overflow-x:hidden;
+	padding-top:60px;
+	
+}
+span{
+	color:white;
+}
+
+.sideNav.closebtn{
+	position:absolute;
+	color:red;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin-left:50px;
+}
+
+
+.sideNav a{
+	text-decoration:none;
+	padding: 30px 28px 8px 32px;
+	font-size:25px;
+	color:black;
+	display:block;
+}
+
+.sideNav a:hover{
+	color:white;
+	background-color:blue;
+}
+
+
+img{
+	width:85%;
+	height:25%;
+	padding-top:50%;
+	padding-left:8%;
+	padding-bottom:25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

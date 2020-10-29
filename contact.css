@@ -1,0 +1,136 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('contact.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:left;
+}
+
+h1{
+	color:white;
+	font-size:55px;
+	padding-left:40%;
+	font-family:Arial,Helvetica,sans-serif;
+	text-align:left;
+	
+}
+
+form{
+	margin:50px auto;
+	width:600px;
+	border-radius:10px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+div{
+	margin-top:25px;
+}
+
+label{
+	display:inline-block;
+	width:120px;
+	text-align:right;
+	color:white;
+	font-size:20px;
+	padding-right:20px;
+}
+
+input, textarea{
+	font-size:20px;
+	font-family:Arial,Helvetica,sans-serif;
+	background:rgba(189,189,189,0.3);
+	width:400px;
+	color:white;
+	vertical-align:top;
+}
+
+.button1{
+     font-size:20px;
+	font-family:Arial,Helvetica,sans-serif;
+    text-decoration:none;
+     border:none;
+     background:blue;
+      color:white;
+      font-weight:100;
+padding:10px;
+transition: all 0.5s ease 0s;
+display:inline-block;	  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sideNav{
+	background-image:url('logo.jpg');
+	background-image:no-repeat;
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:gray;
+	overflow-x:hidden;
+	padding-top:60px;
+	
+}
+span{
+	color:white;
+}
+
+.sideNav.closebtn{
+	position:absolute;
+	color:red;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin-left:50px;
+}
+
+
+.sideNav a{
+	text-decoration:none;
+	padding: 30px 28px 8px 32px;
+	font-size:25px;
+	color:black;
+	display:block;
+}
+
+.sideNav a:hover{
+	color:white;
+	background-color:blue;
+}
+
+
+img{
+	width:85%;
+	height:25%;
+	padding-top:50%;
+	padding-left:8%;
+	padding-bottom:25%;
+}
+
+
+
+
+

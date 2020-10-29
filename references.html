@@ -1,0 +1,51 @@
+<!DOCTYPE html5>
+<html>
+     <head>
+	        <link rel="stylesheet" href="contact.css">
+	       <title>Conatact || Photography </title>
+	 </head>
+	 <body>
+	      <div id="hamburger" class="sideNav">
+		  <a href="javascript:void(0)"  class="closebtn" onclick="closeNav()">&times;</a>
+		     <a href="home.html">Home</a>
+			 <a href="myStory.html">My Story</a>
+			 <a href="Carrier.html">Career</a>
+			 <a href="education.html">Education</a>
+			 <a href="portfolio.html">Portfolio</a>
+			 <a href="references.html">Conatact</a>
+			 <img alt="profile" src="logo.jpg">
+		  </div>
+	       <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+		   <script>
+		     function openNav(){
+			     document.getElementById("hamburger").style.display="block";
+				 }
+				 
+		      function closeNav(){
+			     document.getElementById("hamburger").style.display="none";	
+                 }				  
+		   </script>
+		   
+		   <h1>Get In Touch</h1>
+		   <form  action="my-handling_form_page" method="post">
+		        <div>
+				    <label for="name">Name:</label>
+					<input type="text" id="name" name="user_name">
+				</div>
+				<div>
+				    <label for="name">Email:</label>
+					<input type="email" id="email" name="user_email">
+				</div>
+				<div>
+				    <label for="msg">Message:</label>
+					<textarea  id="msg" name="user_msg"></textarea>
+				</div>
+				<div class="button" align="center">
+				 <a class="button1" href="google.com" target="blank">Send</a>
+				</div>
+				
+				
+		   </form>
+		   
+	 </body>
+</html>
